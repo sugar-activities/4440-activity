@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="Effects" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Effects">
+      <node oor:name="ooo-entrance-appear">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Apparition</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fly-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arrivée</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-venetian-blinds">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Stores</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-box">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Boîte</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-checkerboard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Damier</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Cercle</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fly-in-slow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arrivée lente</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Losange</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-dissolve-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dissolution interne</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fade-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouverture en fondu</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-flash-once">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Flash</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-peek-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insertion furtive</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-plus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Plus</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-random-bars">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lignes aléatoires</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-spiral-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spirale (intérieur)</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-split">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Scinder</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-stretchy">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étiré</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-diagonal-squares">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Quadrillage en diagonale</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rotation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-wedge">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coin</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-wheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roue</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-wipe">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Balayer</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Zoom</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-random">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Effets aléatoires</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-boomerang">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Boomerang</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-bounce">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rebondir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-colored-lettering">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Caractères colorés</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-movie-credits">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Générique de fin</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-ease-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Atténuer en entrée</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-float">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Flotter</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-turn-and-grow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourner et agrandir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-breaks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coup de frein</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-pinwheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Toupie</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-rise-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Élever</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-falling-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Écroulement</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-thread">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Laminage</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-unfold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Déroulement</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-whip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fouet</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-ascend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Montée</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-center-revolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rotation au centre</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fade-in-and-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouverture en fondu et rotation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-descend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Descente</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-sling">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lacet</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-spin-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourbillon (intérieur)</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-compress">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Compresser</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-magnify">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Grossir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-curve-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Courbe vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fade-in-and-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouverture en fondu et zoom</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-glide">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Glissière</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-expand">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Développer</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-flip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Retourner</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-entrance-fold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Pli</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-fill-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Changer la couleur de remplissage</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modifier la police</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modifier la couleur de la police</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font-size">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modifier la taille de la police</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-font-style">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modifier le style de la police</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-grow-and-shrink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Agrandir et rétrécir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-line-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modifier la couleur des lignes</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-spin">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rotation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-transparency">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Transparence</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-bold-flash">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Flash marqué</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-color-over-by-word">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coloration mot par mot</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-reveal-underline">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Révéler le soulignage</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-color-blend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Mélange de couleurs</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-color-over-by-letter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coloration lettre par lettre</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-complementary-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Couleur complémentaire</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-complementary-color-2">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Couleur complémentaire 2</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-contrasting-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Couleur de contraste</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-darken">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assombrir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-desaturate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Désaturer</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-flash-bulb">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ampoule de flash</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-lighten">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éclaircir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-vertical-highlight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Surlignage vertical</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-flicker">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Scintiller</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-grow-with-color">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Agrandir avec de la couleur</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-shimmer">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Miroiter</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-teeter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Chanceler</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-blast">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Souffle</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-blink">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Clignoter</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-style-emphasis">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Accentuer le style</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-bold-reveal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Faire ressortir le gras</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-emphasis-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ondulation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-venetian-blinds">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Stores</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-box">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Boîte</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-checkerboard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Damier</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Cercle</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-crawl-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Glisser vers l'extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Losange</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-disappear">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Disparaître</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-dissolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dissoudre</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-flash-once">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Flash</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fly-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sortie</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-peek-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sortie furtive</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-plus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Plus</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-random-bars">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lignes aléatoires</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-random">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Effets aléatoires</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-split">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Scinder</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-diagonal-squares">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Quadrillage en diagonale</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-wedge">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coin</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-wheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roue</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-wipe">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Balayer</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-contract">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Contrat</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fade-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fermeture en fondu</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fade-out-and-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fermeture en fondu et rotation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fade-out-and-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fermeture en fondu et zoom</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-ascend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Montée</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-center-revolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rotation au centre</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-collapse">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Réduire</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-colored-lettering">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Caractères colorés</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-descend">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Descente</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-ease-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Atténuer en sortie</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-turn-and-grow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourner et agrandir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-sink-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Chute</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-spin-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourbillon (extérieur)</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-stretchy">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étiré</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-unfold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Déroulement</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-zoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Zoom</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-boomerang">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Boomerang</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-bounce">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rebondir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-movie-credits">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Générique de fin</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-curve-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Courbe vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-flip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Retourner</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-float">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Flotter</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-fold">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Pli</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-glide">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Glissière</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-breaks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coup de frein</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-magnify">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Grossir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-pinwheel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Toupie</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-sling">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lacet</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-spiral-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spirale (extérieur)</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-swish">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Bruissement</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-swivel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rotation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-thread">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Laminage</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-exit-whip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fouet</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-4-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étoile à 4 branches</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-5-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étoile à 5 branches</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-6-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étoile à 6 branches</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-8-point-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étoile à 8 branches</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Cercle</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-crescent-moon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Croissant de lune</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Losange</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-equal-triangle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Triangle équilatéral</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-oval">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ellipse</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-heart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coeur</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-hexagon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Hexagone</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-octagon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Octogone</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-parallelogram">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Parallélogramme</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-pentagon">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Pentagone</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-right-triangle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Triangle rectangle</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-square">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Carré</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-teardrop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Larme</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-trapezoid">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Trapèze</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arc vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arc à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arc à droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-arc-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arc vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-bounce-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rebondissement à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-bounce-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rebondissement à droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curvy-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Gauche courbée</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vers la gauche</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vers la droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-spiral-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spirale à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-spiral-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spirale à droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-sine-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ondulation sinusoïdale</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-s-curve-1">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Courbe S 1</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-s-curve-2">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Courbe S 2</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-heartbeat">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Pulsation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curvy-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Droite courbée</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-decaying-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vague tombante</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-diagonal-down-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Diagonale vers le bas à droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-diagonal-up-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Diagonale vers le haut à droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-funnel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Entonnoir</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-spring">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ressort</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-stairs-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Escalier descendant</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourner vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-down-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rotation vers le bas à droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourner vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-turn-up-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rotation vers le haut à droite</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-wave">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ondulation</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-zigzag">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Zigzag</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-bean">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Haricot</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-buzz-saw">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Scie</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curved-square">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Carré incurvé</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curved-x">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">X incurvé</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-curvy-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étoile courbée</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-figure-8-four">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Quatre 8</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-horizontal-figure-8">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">8 horizontal</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-inverted-square">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Carré inversé</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-inverted-triangle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Triangle inversé</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-loop-de-loop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Deux boucles</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-neutron">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Neutron</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-peanut">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Cacahuète</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-clover">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Trèfle</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-pointy-star">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Étoiles à branches</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-swoosh">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coup de pinceau</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-motionpath-vertical-figure-8">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">8 vertical</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-media-start">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Démarrer le média</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-media-stop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arrêter le média</value>
+        </prop>
+      </node>
+      <node oor:name="ooo-media-toggle-pause">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Basculer la pause</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Properties">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Basique</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spécial</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modéré</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Captivant</value>
+        </prop>
+      </node>
+      <node oor:name="subtle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Discret</value>
+        </prop>
+      </node>
+      <node oor:name="linesandcurves">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lignes et courbes</value>
+        </prop>
+      </node>
+      <node oor:name="vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vertical</value>
+        </prop>
+      </node>
+      <node oor:name="horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Horizontal</value>
+        </prop>
+      </node>
+      <node oor:name="in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À l'intérieur</value>
+        </prop>
+      </node>
+      <node oor:name="across">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En travers</value>
+        </prop>
+      </node>
+      <node oor:name="down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir du bas</value>
+        </prop>
+      </node>
+      <node oor:name="from-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la gauche</value>
+        </prop>
+      </node>
+      <node oor:name="from-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la droite</value>
+        </prop>
+      </node>
+      <node oor:name="from-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir du haut</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la gauche, en bas</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la droite, en bas</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la gauche, en haut</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la droite, en haut</value>
+        </prop>
+      </node>
+      <node oor:name="horizontal-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Horizontal intérieur</value>
+        </prop>
+      </node>
+      <node oor:name="horizontal-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Horizontal extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="vertical-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vertical intérieur</value>
+        </prop>
+      </node>
+      <node oor:name="vertical-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Vertical extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À l'extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="out-from-screen-center">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arrière vers l'extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="in-from-screen-center">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Avant vers l'extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="in-slightly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Avant léger</value>
+        </prop>
+      </node>
+      <node oor:name="out-slightly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Arrière léger</value>
+        </prop>
+      </node>
+      <node oor:name="left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En bas à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En haut à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En haut à droite</value>
+        </prop>
+      </node>
+      <node oor:name="right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En bas à droite</value>
+        </prop>
+      </node>
+      <node oor:name="to-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En bas</value>
+        </prop>
+      </node>
+      <node oor:name="to-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À gauche</value>
+        </prop>
+      </node>
+      <node oor:name="to-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À droite</value>
+        </prop>
+      </node>
+      <node oor:name="to-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En haut</value>
+        </prop>
+      </node>
+      <node oor:name="to-bottom-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En bas à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="to-bottom-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En bas à droite</value>
+        </prop>
+      </node>
+      <node oor:name="to-top-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En haut à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="to-top-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En haut à droite</value>
+        </prop>
+      </node>
+      <node oor:name="clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dans le sens des aiguilles d'une montre</value>
+        </prop>
+      </node>
+      <node oor:name="counter-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dans le sens inverse des aiguilles d'une montre</value>
+        </prop>
+      </node>
+      <node oor:name="downward">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Descendant</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-right-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de l'horizontale en bas à droite</value>
+        </prop>
+      </node>
+      <node oor:name="from-bottom-right-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la verticale en bas à droite</value>
+        </prop>
+      </node>
+      <node oor:name="from-center-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir du centre dans le sens des aiguilles d'une montre</value>
+        </prop>
+      </node>
+      <node oor:name="from-center-counter-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir du centre dans le sens inverse des aiguilles d'une montre</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir du haut à gauche dans le sens des aiguilles d'une montre</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de l'horizontale en haut à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-left-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir de la verticale en haut à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="from-top-right-counter-clockwise">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À partir du haut à droite dans le sens contraire des aiguilles d'une montre</value>
+        </prop>
+      </node>
+      <node oor:name="left-to-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">De la gauche vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="left-to-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">De la gauche vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="right-to-bottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">De la droite vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="right-to-top">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">De la droite vers le haut</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Transitions">
+      <node oor:name="venetian-blinds-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Stores horizontaux</value>
+        </prop>
+      </node>
+      <node oor:name="venetian-blinds-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Stores verticaux</value>
+        </prop>
+      </node>
+      <node oor:name="box-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers l'intérieur</value>
+        </prop>
+      </node>
+      <node oor:name="box-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers l'extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="checkerboard-across">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Damier vertical</value>
+        </prop>
+      </node>
+      <node oor:name="checkerboard-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Damier horizontal</value>
+        </prop>
+      </node>
+      <node oor:name="comb-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Bandes horizontales</value>
+        </prop>
+      </node>
+      <node oor:name="comb-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Bandes verticales</value>
+        </prop>
+      </node>
+      <node oor:name="cover-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir du haut</value>
+        </prop>
+      </node>
+      <node oor:name="cover-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir de la droite</value>
+        </prop>
+      </node>
+      <node oor:name="cover-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir de la gauche</value>
+        </prop>
+      </node>
+      <node oor:name="cover-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir du bas</value>
+        </prop>
+      </node>
+      <node oor:name="cover-left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir de la droite en haut</value>
+        </prop>
+      </node>
+      <node oor:name="cover-left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir de la droite en bas</value>
+        </prop>
+      </node>
+      <node oor:name="cover-right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir de la gauche en haut</value>
+        </prop>
+      </node>
+      <node oor:name="cover-right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recouvrir à partir de la gauche en bas</value>
+        </prop>
+      </node>
+      <node oor:name="cut">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Couper</value>
+        </prop>
+      </node>
+      <node oor:name="cut-through-black">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Couper par le noir</value>
+        </prop>
+      </node>
+      <node oor:name="dissolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dissoudre</value>
+        </prop>
+      </node>
+      <node oor:name="fade-smoothly">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fondu léger</value>
+        </prop>
+      </node>
+      <node oor:name="fade-through-black">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Transition par le noir</value>
+        </prop>
+      </node>
+      <node oor:name="zoom-rotate-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Flash d'informations</value>
+        </prop>
+      </node>
+      <node oor:name="push-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Poussée vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="push-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Poussée vers la gauche</value>
+        </prop>
+      </node>
+      <node oor:name="push-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Poussée vers la droite</value>
+        </prop>
+      </node>
+      <node oor:name="push-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Poussée vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="random-bars-horizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lignes horizontales aléatoires</value>
+        </prop>
+      </node>
+      <node oor:name="random-bars-vertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lignes verticales aléatoires</value>
+        </prop>
+      </node>
+      <node oor:name="shape-circle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En forme de cercle</value>
+        </prop>
+      </node>
+      <node oor:name="shape-diamond">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En forme de losange</value>
+        </prop>
+      </node>
+      <node oor:name="shape-plus">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En forme de plus</value>
+        </prop>
+      </node>
+      <node oor:name="split-horizontal-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fermeture horizontale</value>
+        </prop>
+      </node>
+      <node oor:name="split-horizontal-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouverture horizontale</value>
+        </prop>
+      </node>
+      <node oor:name="split-vertical-in">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fermeture verticale</value>
+        </prop>
+      </node>
+      <node oor:name="split-vertical-out">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouverture verticale</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Quadrillage en diagonal vers la gauche en bas</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Quadrillage en diagonal vers la gauche en haut</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Quadrillage en diagonal vers la droite en bas</value>
+        </prop>
+      </node>
+      <node oor:name="diagonal-squares-right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Quadrillage en diagonal vers la droite en haut</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers la gauche</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers la droite</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers le haut</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-left-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers la gauche en bas</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-left-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers la gauche en haut</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-right-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers la droite en bas</value>
+        </prop>
+      </node>
+      <node oor:name="uncover-right-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Découvrir vers la droite en haut</value>
+        </prop>
+      </node>
+      <node oor:name="wedge">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Coin</value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-1-spoke">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roue dans le sens des aiguilles d'une montre, 1 rayon</value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-2-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roue dans le sens des aiguilles d'une montre, 2 rayons</value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-3-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roue dans le sens des aiguilles d'une montre, 3 rayons</value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-4-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roue dans le sens des aiguilles d'une montre, 4 rayons</value>
+        </prop>
+      </node>
+      <node oor:name="wheel-clockwise-8-spokes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roue dans le sens des aiguilles d'une montre, 8 rayons</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Balayage en bas</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-left">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Balayage à gauche</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-right">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Balayage à droite</value>
+        </prop>
+      </node>
+      <node oor:name="wipe-up">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Balayage en haut</value>
+        </prop>
+      </node>
+      <node oor:name="random-transition">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Transition aléatoire</value>
+        </prop>
+      </node>
+      <node oor:name="tile-flip">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tuiles se retournant</value>
+        </prop>
+      </node>
+      <node oor:name="outside-cube">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Cube tournant vers l'extérieur</value>
+        </prop>
+      </node>
+      <node oor:name="revolving-circles">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Cercles pivotants</value>
+        </prop>
+      </node>
+      <node oor:name="turning-helix">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spirale tournante</value>
+        </prop>
+      </node>
+      <node oor:name="inside-cube">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Cube tournant vers l'intérieur</value>
+        </prop>
+      </node>
+      <node oor:name="fall">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Chute</value>
+        </prop>
+      </node>
+      <node oor:name="turn-around">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourner autour</value>
+        </prop>
+      </node>
+      <node oor:name="iris">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Iris</value>
+        </prop>
+      </node>
+      <node oor:name="turn-down">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tourner vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name="rochade">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Roque</value>
+        </prop>
+      </node>
+      <node oor:name="venetian3dv">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Stores verticaux 3D</value>
+        </prop>
+      </node>
+      <node oor:name="venetian3dh">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Stores horizontaux 3D</value>
+        </prop>
+      </node>
+      <node oor:name="static">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Statique</value>
+        </prop>
+      </node>
+      <node oor:name="finedissolve">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dissolution fine</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+  <node oor:name="Presets">
+    <node oor:name="Entrance">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Basique</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spécial</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modéré</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Captivant</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Emphasis">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Basique</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spécial</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modéré</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Captivant</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Exit">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Basique</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spécial</value>
+        </prop>
+      </node>
+      <node oor:name="moderate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modéré</value>
+        </prop>
+      </node>
+      <node oor:name="exciting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Captivant</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="MotionPaths">
+      <node oor:name="basic">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Basique</value>
+        </prop>
+      </node>
+      <node oor:name="linesandcurves">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lignes et courbes</value>
+        </prop>
+      </node>
+      <node oor:name="special">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Spécial</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Misc">
+      <node oor:name="media">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Média</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

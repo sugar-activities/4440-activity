@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="CalcCommands" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Commands">
+      <node oor:name=".uno:InsertObjectStarMath">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Formule...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ObjectMirrorVertical">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Refléter verticalement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ObjectMirrorHorizontal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Refléter horizontalement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowPrecedents">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Repérer les ~antécédents</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ResetAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Formatage par ~défaut</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ClearArrowPrecedents">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Supprimer le repérage des antécédents</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowDependents">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Repérer les ~dépendants</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SplitWindow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Scinder la fenêtre</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Scinder</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ClearArrowDependents">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">S~upprimer le repérage des dépendants</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FreezePanes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Fixer la fenêtre</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Fixer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowErrors">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">R~epérer les erreurs</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DrawChart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer un diagramme</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ClearArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Su~pprimer tous les repères</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AuditingFillMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Mode ~Remplissage</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowInvalid">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Marquer les données ~incorrectes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RefreshArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">A~ctualiser les repères</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoRefreshArrows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Actualiser a~utomatiquement les repères</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Act~ualiser automatiquement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ChooseDesign">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner des thèmes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EuroConverter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Euro-Convertisseur</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ProtectTraceChangeMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Protéger l'historique...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertExternalDataSource">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Lien vers des données e~xternes...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Hyphenate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Coupure des mots...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ObjectTitleDescription">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Description...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RenameObject">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Nom...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FocusInputLine">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ligne de saisie</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectTables">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Sélectionner les feuilles...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Sélectionner...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataPilotFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Pilote de données - Filtre</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NextPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Page suivante</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PreviousPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Page précédente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FirstPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Première page</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:LastPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dernière page</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ZoomIn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Agrandir l'échelle</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ZoomOut">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Réduire l'échelle</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Margins">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Marges</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ScalingFactor">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Facteur d'échelle</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ClosePreview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fermer l'aperçu</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StatusDocPos">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Position dans le document</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StatusPageStyle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format de page</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StatusSelectionMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Mode Sélection</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SimpleReferenz">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Saisir des références</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StatusSelectionModeExp">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Statut sélection supplémentaire</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StatusSelectionModeExt">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Statut sélection élargie</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoLeftBlock">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Page à gauche</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoRightBlock">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Page à droite</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoRightBlockSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner jusqu'à la page à droite</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoUpToStartOfData">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Au bord supérieur du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoDownToEndOfData">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Au bord inférieur du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoLeftToStartOfData">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Au bord gauche du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoRightToEndOfData">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Au bord droit du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoUpToStartOfDataSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner jusqu'au bord supérieur du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextToColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Te~xte en colonnes...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataConsolidate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Consolide~r...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoDownToEndOfDataSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner jusqu'au bord inférieur du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataDataPilotRun">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Démarrer le pilote de donnée~s...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Démarrer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoLeftToStartOfDataSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner jusqu'au bord gauche du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FunctionDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">F~onction...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoRightToEndOfDataSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner jusqu'au bord droit du bloc</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoalSeekDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">R~echerche de valeur cible...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SolverDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sol~veur...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À la feuille suivante</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableOperationDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Opérations ~multiples...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToPrevTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À la feuille précédente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertObjectChart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Diagramme...</value>
+          <value xml:lang="fr">~Diagramme...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StarChartDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Diagramme...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextUnprotected">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À la cellule non protégée suivante</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToPreviousUnprotected">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À la cellule non protégée précédente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner la colonne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StarChartDataDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Modifier la zone de données du diagramme</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectRow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner la ligne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ConditionalFormatDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">F~ormatage conditionnel...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Deselect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Annuler la sélection</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GoToCurrentCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">À la cellule active</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectData">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner la zone de données</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetInputMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Basculer le mode Saisie</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ClearContents">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer du contenu</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoFill">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir la série de données automatiquement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Cancel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Annuler</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectArrayFormula">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner la formule de matrice</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToNextTableSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner jusqu'à la feuille suivante</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:JumpToPrevTableSel">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner jusqu'à la feuille précédente</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:WrapText">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Renvoi à la ligne automatique</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DefinePrintArea">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Définir la zone d'impression</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Définir</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeletePrintArea">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprime~r la zone d'impression</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Supp~rimer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditPrintArea">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer la ~zone d'impression...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Édit~er...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToggleRelative">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Références relatives/absolues</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PasteSpecial">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Colla~ge spécial...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataSelect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Liste de sélection</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Suppr~imer des cellules...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RepeatSearch">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Répéter la recherche</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Remove">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">S~upprimer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillDown">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir vers le ~bas</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Bas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir vers la d~roite</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">D~roite</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillUp">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir vers le ~haut</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Ha~ut</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir vers la ~gauche</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Gauche</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir les feuille~s...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Feuille~s...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillSeries">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir la séri~e...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Séri~e...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditHeaderAndFooter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~En-têtes et pieds de page...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Validation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Validité...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer des lignes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertCtrl">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer des colonnes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsCellsCtrl">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer des cellules</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TraceChangeMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En~registrer les modifications</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">En~registrer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsObjCtrl">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer un objet</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowChanges">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">A~fficher les modifications...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Affic~her...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DefineLabelRange">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Définir ~les étiquettes...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Éti~quettes...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NoteVisible">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Afficher le commentaire</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertAnnotation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Comm~entaire</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteNote">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer le commentaire</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InputLineVisible">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Barre de ~formule</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ViewRowColumnHeaders">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~En-têtes de colonnes/lignes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Scale">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Échelle de représentation à l'écran</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ViewValueHighlighting">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Mise en évidence des valeurs</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NormalViewMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Mode d'affichage ~normal</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Normal</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PagebreakMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aperçu des sauts de ~page</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FunctionBox">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Li~ste des fonctions</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataAreaRefresh">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Actualiser la plage</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FocusCellAddress">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Plage de feuille - champ de saisie</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UnderlineNone">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Soulignage : désactiver</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UnderlineSingle">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Soulignage : simple</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AcceptChanges">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Accepter ou rejeter les modifications...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Accepter ou rejeter...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UnderlineDouble">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Soulignage : double</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CommentChange">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">C~ommentaires...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UnderlineDotted">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Soulignage : pointillé</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteAllBreaks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer les sauts de page</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertRowBreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer un ~retour à la ligne</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Retour à la ligne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AddPrintArea">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Ajouter une zone d'impression</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Ajouter</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertColumnBreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer un saut de ~colonne</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Saut de ~colonne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AdjustPrintZoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Adapter l'échelle</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteRowbreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer un ~retour à la ligne</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Retour à la ligne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ResetPrintZoom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rétablir l'échelle</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeleteColumnbreak">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer un saut de ~colonne</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Saut de ~colonne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertContents">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Collage spécial</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer des ~cellules...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Cellules...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertRows">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Insérer des lignes</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Lignes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer des co~lonnes</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Co~lonnes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Insert">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer une ~feuille...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Feui~lle...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertSheetFromFile">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer une feuille à par~tir d'un fichier...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Fe~uille à partir d'un fichier...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DefineName">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Définir un nom...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Définir...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertName">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Insérer un nom...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Insérer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CreateNames">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Créer des noms...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Créer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ApplyNames">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assigner des noms</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertCellsDown">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer des cellules, vers le bas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertCellsRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer des cellules, vers la droite</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FormatCellDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Formater les cellule~s...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Cellules...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RowHeight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Hauteur de ligne...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Hauteur...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetOptimalRowHeight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Hauteur de ligne ~optimale...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Hauteur ~optimale...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HideRow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Masquer les l~ignes</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Masquer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowRow">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Afficher les ligne~s</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Afficher</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ColumnWidth">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Largeur de colonne...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Largeur...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetOptimalColumnWidth">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Largeur de colonne ~optimale...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Largeur ~optimale...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:HideColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Masquer les colonnes</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Mas~quer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShowColumn">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Afficher les colonne~s</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Afficher</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Hide">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Masquer les feuilles</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Mas~quer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Show">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Afficher les feuille~s...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Afficher...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MergeCells">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fusionner les cellules</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SplitCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Scinder les cellules</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToggleMergeCells">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">F~usionner les cellules</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PageFormatDialog">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Formater la ~page...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Page...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:StandardTextAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Attributs de texte standards</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TextAttributes">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Définir les attributs de texte</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetOptimalColumnWidthDirect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Largeur de colonne optimale, directement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutomaticCalculation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Calcul automatique</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Calculate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Recalculer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Protect">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Protéger la ~feuille...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Feui~lle...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToolProtectionDocument">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Protéger le ~document...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Document...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToolsOptions">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Options de classeur</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ScenarioManager">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Scénarios...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RecalcPivotTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Actualise~r le pilote de données</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Actualise~r</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DeletePivotTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer le pilote de ~données</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Supprimer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CalculateHard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Recalcul inconditionnel</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoComplete">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~AutoSaisie</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DefineDBName">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Définir la plage de données...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Définir la plage...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectDB">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionne~r la plage de données...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner la ~plage...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataSort">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Trier...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataFilterStandardFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Filtre standard...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataFilterSpecialFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Filtre ~spécial...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataFilterAutoFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~AutoFiltre</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataFilterRemoveFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer le f~iltre</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataSubTotals">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Sous-totaux...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AutoOutline">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Au~toPlan</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataImport">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Importer des données</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataReImport">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Actualiser l'import de données</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataFilterHideAutoFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Masquer l'AutoFiltre</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SortDescending">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tri décroissant</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SortAscending">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tri croissant</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RenameTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Renommer la feuille...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">~Renommer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Name">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Renommer la feuille</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Move">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Déplacer/~copier la feuille...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Dé~placer/copier...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableSelectAll">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner toutes les feuilles</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:TableDeselectAll">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dé-sélectionner toutes les feuilles</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:Add">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ajouter une feuille</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aligner à gauche</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignRight">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aligner à droite</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignHorizontalCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aligner au centre horizontalement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignBlock">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Justifié</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignTop">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aligner en haut</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignBottom">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aligner en bas</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AlignVCenter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aligner au centre verticalement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SelectScenario">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Sélectionner le scénario</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:UpdateChart">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Redessiner le diagramme</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToggleAnchorType">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Changer d'ancrage</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatCurrency">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : monnaie</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatPercent">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : pourcentage</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatStandard">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : standard</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatDate">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : date</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatDecimal">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : décimal</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatScientific">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : exponentiel</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatTime">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : horaire</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatIncDecimals">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : ajouter une décimale</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NumberFormatDecDecimals">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Format numérique : supprimer une décimale</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditLinks">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer les ~liens...</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">Lie~ns...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertObjectStarImage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Insérer à partir de l'éditeur d'image</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SheetRightToLeft">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Feuille de dro~ite à gauche</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">De dro~ite à gauche</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetAnchorToPage">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ancrer : à la p~age</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">À la p~age</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SetAnchorToCell">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ancrer : à la ~cellule</value>
+        </prop>
+        <prop oor:name="ContextLabel" oor:type="xs:string">
+          <value xml:lang="fr">À la ~cellule</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMailDocAsMS">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Envoyer par e-mail en Microsoft E~xcel...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendMailDocAsOOo">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Envoyer par e-mail en classeur ~OpenDocument...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ShareDocument">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">P~artager le document...</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Popups">
+      <node oor:name=".uno:AuditMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">A~udit</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:InsertBreakMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">S~aut manuel</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Donnée~s</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DelBreakMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">S~upprimer le saut manuel</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FillCellsMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Remplir</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:CellContentsMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Contenu des ce~llules</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:NamesMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">No~ms</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DataPilotMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Pilote de données</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:EditSheetMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Feuille</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FilterMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">F~iltre</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SendTo">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Envo~yer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ProtectMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Protéger le document</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:GroupOutlineMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Pla~n</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:RowMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Ligne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ColumnMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">C~olonne</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:SheetMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">F~euille</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:MergeCellsMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Fusionner les cellules</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PrintRangesMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Zones d'impression</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DrawGraphicMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">I~mage</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:ToggleFormula">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Afficher la formule</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:AssignMacro">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assigner la macro...</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

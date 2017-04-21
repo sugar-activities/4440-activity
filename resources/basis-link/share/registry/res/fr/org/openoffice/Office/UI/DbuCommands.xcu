@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:install="http://openoffice.org/2004/installation" oor:name="DbuCommands" oor:package="org.openoffice.Office.UI">
+  <node oor:name="UserInterface">
+    <node oor:name="Commands">
+      <node oor:name=".uno:DBClearQuery">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Effacer la requête</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBAddRelation">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Nouvelle relation...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBAddTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ajouter des tables...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBIndexDesign">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ébauche d'~index...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBChangeDesignMode">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">(Dés)activer le mode Ébauche</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBViewFunctions">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Fonctions</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBViewAliases">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Alias</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBViewTableNames">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Nom de la table</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDistinctValues">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Valeurs distinctes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:PasteSpecial">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Collage ~spécial...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDelete">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBRename">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Renommer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBEdit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBEditSqlView">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer en mode SQL...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBOpen">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouvrir un objet de base de données...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBTableDelete">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBTableRename">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Renommer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBTableEdit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBTableOpen">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouvrir un objet de base de données...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBQueryDelete">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBQueryRename">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Renommer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBQueryEdit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBQueryOpen">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouvrir un objet de base de données...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBFormDelete">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBFormRename">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Renommer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBFormEdit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBFormOpen">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouvrir un objet de base de données...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBReportDelete">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBReportRename">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Renommer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBReportEdit">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBReportOpen">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ouvrir un objet de base de données...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBConvertToView">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Créer en tant que vue</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewFormAutoPilot">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assistant Formulaire...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewTableAutoPilot">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assistant Table...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewQueryAutoPilot">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assistant Requête...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewFormAutoPilotWithPreSelection">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assistant Formulaire...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewReportAutoPilot">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assistant Rapport...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewReportAutoPilotWithPreSelection">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Assistant Rapport...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBSelectAll">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tout sélectionner</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDSProperties">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Propriétés...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDSConnectionType">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Type de connexion...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDSAdvancedSettings">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Paramètres avancés...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBViewTables">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Tables</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBViewQueries">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Requêtes</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBViewForms">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Formulaires</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBViewReports">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rapports</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBSortAscending">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Croissant</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBSortDescending">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Décroissant</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDisablePreview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aucun(e)</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBShowDocInfoPreview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Informations du document</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBShowDocPreview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Document</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewForm">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Formulaire...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewQuery">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Requête (mode Ébauche)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewQuerySql">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Requête (mode SQL)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewTable">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ébauche de table...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewView">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Ébauche de vue...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewViewSQL">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Affichage (simple)...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewFolder">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Dossier...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBRelationDesign">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Relations...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBUserAdmin">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Gestion des utilisateurs...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBTableFilter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Filtre de table...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBRefreshTables">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Actualiser les tables</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDirectSQL">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">SQL...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBMigrateScripts">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Migrer les macros...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DSBEditDoc">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Éditer les données</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DSBFormLetter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">~Mailing...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DSBInsertColumns">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Données dans le texte...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DSBInsertContent">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Données dans les champs</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DSBDocumentDataSource">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Source de données du document actif</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBSendReportAsMail">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rapport par e-mail...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBSendReportToWriter">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rapport en document texte...</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FormSlots/deleteRecord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Supprimer l'en~registrement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:FormSlots/insertRecord">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">En~registrement</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBQueryPreview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aperçu</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBNewReport">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Rapport...</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Popups">
+      <node oor:name=".uno:DBDatabasePropertiesMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Base de données</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBDatabaseObjectsMenu">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Objets de base de données</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBSort">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Trier</value>
+        </prop>
+      </node>
+      <node oor:name=".uno:DBPreview">
+        <prop oor:name="Label" oor:type="xs:string">
+          <value xml:lang="fr">Aperçu</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

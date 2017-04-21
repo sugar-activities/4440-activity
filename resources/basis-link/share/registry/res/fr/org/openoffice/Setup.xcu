@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:install="http://openoffice.org/2004/installation" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:name="Setup" oor:package="org.openoffice">
+  <node oor:name="Office">
+    <node oor:name="Factories">
+      <node oor:name="com.sun.star.sdb.FormDesign">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Base : ébauche de formulaire</value>
+        </prop>
+      </node>
+      <node oor:name="com.sun.star.sdb.TextReportDesign">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Base : ébauche de rapport</value>
+        </prop>
+      </node>
+      <node oor:name="com.sun.star.xforms.XMLFormDocument">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Document formulaire XML</value>
+        </prop>
+      </node>
+      <node oor:name="com.sun.star.sdb.RelationDesign">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Base : ébauche de relation</value>
+        </prop>
+      </node>
+      <node oor:name="com.sun.star.sdb.QueryDesign">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Base : ébauche de requête</value>
+        </prop>
+      </node>
+      <node oor:name="com.sun.star.sdb.ViewDesign">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Base : ébauche de vue</value>
+        </prop>
+      </node>
+      <node oor:name="com.sun.star.sdb.TableDesign">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Base : ébauche de table</value>
+        </prop>
+      </node>
+      <node oor:name="com.sun.star.sdb.DataSourceBrowser">
+        <prop oor:name="ooSetupFactoryUIName">
+          <value xml:lang="fr">Base : vue de données</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:install="http://openoffice.org/2004/installation" xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oor:package="org.openoffice.Office" oor:name="PresenterScreen">
+  <node oor:name="PresenterScreenSettings">
+    <node oor:name="ToolBars">
+      <node oor:name="ToolBar">
+        <node oor:name="Entries">
+          <node oor:name="a">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="fr">Diapo précédente</value>
+              </prop>
+            </node>
+          </node>
+          <node oor:name="b">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="fr">Diapo suivante</value>
+              </prop>
+            </node>
+          </node>
+          <node oor:name="c">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="fr">Afficher les notes</value>
+              </prop>
+            </node>
+          </node>
+          <node oor:name="d">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="fr">Diapositives</value>
+              </prop>
+            </node>
+          </node>
+          <node oor:name="l">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="fr">Aide</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node oor:name="NotesToolBar">
+        <node oor:name="Entries">
+          <node oor:name="a">
+            <node oor:name="Normal">
+              <prop oor:name="Text">
+                <value xml:lang="fr">Afficher + gros / + petit</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node oor:name="Buttons">
+      <node oor:name="SlideSorterCloser">
+        <prop oor:name="Text">
+          <value xml:lang="fr">Fermer</value>
+        </prop>
+      </node>
+      <node oor:name="NotesViewCloser">
+        <prop oor:name="Text">
+          <value xml:lang="fr">Fermer</value>
+        </prop>
+      </node>
+      <node oor:name="HelpViewCloser">
+        <prop oor:name="Text">
+          <value xml:lang="fr">Fermer</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="HelpView">
+      <node oor:name="HelpStrings">
+        <node oor:name="a">
+          <prop oor:name="Left">
+            <value xml:lang="fr">Click gauche, flèches gauche ou droite, barre d'espace, page suivante, entrée, retour 'N'</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="fr">Diapo ou effet suivant</value>
+          </prop>
+        </node>
+        <node oor:name="b">
+          <prop oor:name="Left">
+            <value xml:lang="fr">Click droit, flèche haut ou bas, barre d'espace, 'P'</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="fr">Diapo précédente ou effet précédent</value>
+          </prop>
+        </node>
+        <node oor:name="d">
+          <prop oor:name="Left">
+            <value xml:lang="fr">Retour au début</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="fr">Première diapo</value>
+          </prop>
+        </node>
+        <node oor:name="e">
+          <prop oor:name="Left">
+            <value xml:lang="fr">Fin</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="fr">Aller à la dernière diapo</value>
+          </prop>
+        </node>
+        <node oor:name="g">
+          <prop oor:name="Left">
+            <value xml:lang="fr">Alt-Page précédente</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="fr">Diapo précédente sans effet</value>
+          </prop>
+        </node>
+        <node oor:name="h">
+          <prop oor:name="Left">
+            <value xml:lang="fr">Alt-Page suivante</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="fr">Diapo suivante sans effet</value>
+          </prop>
+        </node>
+        <node oor:name="j">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Affiche/Supprime l'écran noir</value>
+          </prop>
+        </node>
+        <node oor:name="k">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Affiche/Supprime l'écran blanc</value>
+          </prop>
+        </node>
+        <node oor:name="m">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Terminer la présentation</value>
+          </prop>
+        </node>
+        <node oor:name="o">
+          <prop oor:name="Left">
+            <value xml:lang="fr">Nombre suivi d'un appui sur la touche Entrée</value>
+          </prop>
+          <prop oor:name="Right">
+            <value xml:lang="fr">Aller à cette diapositive</value>
+          </prop>
+        </node>
+        <node oor:name="q">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Augmenter/diminuer la taille de la police des notes</value>
+          </prop>
+        </node>
+        <node oor:name="r">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Faire défiler les notes vers le haut/vers le bas</value>
+          </prop>
+        </node>
+        <node oor:name="s">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Déplacer le point d'insertion dans les notes en arrière/en avant</value>
+          </prop>
+        </node>
+        <node oor:name="v">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Afficher les notes de présentation</value>
+          </prop>
+        </node>
+        <node oor:name="w">
+          <prop oor:name="Right">
+            <value xml:lang="fr">Aperçu de la présentation</value>
+          </prop>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node oor:name="Presenter">
+    <node oor:name="Views">
+      <node oor:name="CurrentSlidePreview">
+        <prop oor:name="Title">
+          <value xml:lang="fr">Diapositive affichée (%CURRENT_SLIDE_NUMBER% sur %SLIDE_COUNT%)</value>
+        </prop>
+        <prop oor:name="AccessibleTitle">
+          <value xml:lang="fr">Diapositive affichée, %CURRENT_SLIDE_NAME%, %CURRENT_SLIDE_NUMBER% sur %SLIDE_COUNT%</value>
+        </prop>
+        <node oor:name="Strings">
+          <node oor:name="ClickToExitPresentationText">
+            <prop oor:name="String">
+              <value xml:lang="fr">Cliquer pour terminer la présentation</value>
+            </prop>
+          </node>
+          <node oor:name="ClickToExitPresentationTitle">
+            <prop oor:name="String">
+              <value xml:lang="fr">Fin du diaporama</value>
+            </prop>
+          </node>
+        </node>
+      </node>
+      <node oor:name="NextSlidePreview">
+        <prop oor:name="Title">
+          <value xml:lang="fr">Diapo suivante</value>
+        </prop>
+      </node>
+    </node>
+    <node oor:name="Accessibility">
+      <node oor:name="Console">
+        <prop oor:name="String">
+          <value xml:lang="fr">Pannneau de contrôle de la présentation</value>
+        </prop>
+      </node>
+      <node oor:name="Preview">
+        <prop oor:name="String">
+          <value xml:lang="fr">Diapositive affichée</value>
+        </prop>
+      </node>
+      <node oor:name="Notes">
+        <prop oor:name="String">
+          <value xml:lang="fr">Notes de présentation</value>
+        </prop>
+      </node>
+    </node>
+  </node>
+</oor:component-data>
